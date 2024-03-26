@@ -4,22 +4,22 @@
 To download the main code and set up the enviroment please follow the instructions in [Part Aware Transformer](https://github.com/liyuke65535/Part-Aware-Transformer)
 
 ## Modified codes
-In order to use PAT for the [Urban Elements ReID](https://www.kaggle.com/competitions/urbam-reid-challenge/overview) competition follow the next steps:
+In order to use PAT for the [Urban Elements ReID competition](https://www.kaggle.com/competitions/urbam-reid-challenge/overview) follow the next steps:
 
 ### 1) Download the dataset
-Download the UrbanElements dataset from the section [Data](https://www.kaggle.com/competitions/urbam-reid-challenge/data) in the Kaggle competition page.
+Download the UrbanElements dataset from the section [Data](https://www.kaggle.com/competitions/urbam-reid-challenge/data) in the Kaggle competition page and place it in the directory of your choice.
 
 ### 2) Add the corresponding dataloaders
-Add to the folder `data/datasets/` the dataloaders and initialization files `UrbanElementsReID.py`, `UrbanElementsReID_test.py` and `__init__.py`.
+Add to the folder `Part-Aware-Transformer-main/data/datasets/` the dataloaders and initialization files `UrbanElementsReID.py`, `UrbanElementsReID_test.py` and `__init__.py`.
 
 ### 3) Configuration files
-Add to `config/` folder and set up the correspondig paths and configuration of `UrbanElementsReID_test.yml` and `UrbanElementsReID_train.yml` files.
+Add to `Part-Aware-Transformer-main/config/` folder and set up the correspondig paths and configuration of `UrbanElementsReID_test.yml` and `UrbanElementsReID_train.yml` files.
 
 ### 4) Train the model
 In order to train the model first make sure that all the condifuration settings and paths are correct. Then run the following line:
 
 ```bash
-python update.py --config_file "config/UrbanElementsReID_test.yml" --track "path to store the track.txt and track_submission.csv"
+python update.py --config_file "Part-Aware-Transformer-main/config/UrbanElementsReID_test.yml" --track "path to store the track.txt and track_submission.csv"
 ```
 
 ### 5) Evaluation
@@ -30,4 +30,4 @@ python update.py --config_file "config/UrbanElementsReID_test.yml" --track "path
 ```
 
 ### Acknowledgment 
-Special thanks to liyuke65535 for the creation and publication of [Part Aware Transformer](https://github.com/liyuke65535/Part-Aware-Transformer) repo. and congratulations for the excelent work.
+Special thanks to liyuke65535 for the creation and publication of [Part Aware Transformer](https://github.com/liyuke65535/Part-Aware-Transformer) repository and congratulations for the excelent work.
