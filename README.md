@@ -19,7 +19,7 @@ Add to `Part-Aware-Transformer-main/config/` folder and set up the correspondig 
 In order to train the model first make sure that all the condifuration settings and paths are correct. Then run the following line:
 
 ```bash
-python update.py --config_file "Part-Aware-Transformer-main/config/UrbanElementsReID_test.yml" --track "path to store the track.txt and track_submission.csv"
+python train.py --config_file "config/UrbanElementsReID_train.yml"
 ```
 
 ### 5) Evaluation
