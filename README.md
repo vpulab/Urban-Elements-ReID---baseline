@@ -6,8 +6,8 @@ To download the main code and set up the enviroment please follow the instructio
 ## Modified codes
 In order to use PAT for the [Urban Elements ReID competition](https://www.kaggle.com/competitions/urbam-reid-challenge/overview) follow the next steps:
 
-### 1) Download the dataset
-Download the UrbanElements dataset from the section [Data](https://www.kaggle.com/competitions/urbam-reid-challenge/data) in the Kaggle competition page and place it in the directory of your choice.
+### 1) Download the UrbanElementsReID dataset
+Download the UrbanElementsReID dataset from the section [Data](https://www.kaggle.com/competitions/urbam-reid-challenge/data) in the Kaggle competition page and place it in the directory of your choice.
 
 ### 2) Add the corresponding dataloaders
 Add to the folder `Part-Aware-Transformer-main/data/datasets/` the dataloaders and initialization files `UrbanElementsReID.py`, `UrbanElementsReID_test.py` and `__init__.py`.
