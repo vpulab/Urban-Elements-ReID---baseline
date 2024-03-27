@@ -20,7 +20,7 @@ Add to `Part-Aware-Transformer-main/` the evaluation file `update.py`
 
 ### 3) Set up configuration files
 
-Modify the configuration files `UrbanElementsReID_test.yml` and `UrbanElementsReID_train.yml` and set up your path to the data directory (DATASET:ROOT_DIR and TEST:WEIGHT), pretrained model weigths (MODEL:PRETRAIN_PATH) and output directory.
+Modify the configuration files `UrbanElementsReID_test.yml` and `UrbanElementsReID_train.yml` and set up your path to the data directory (DATASET:ROOT_DIR), pretrained model weigths (MODEL:PRETRAIN_PATH and TEST:WEIGHT) and output directory.
 
 ### 4) Train the model
 In order to train the model first make sure that all the condifuration settings and paths are correct. Then run the following line:
