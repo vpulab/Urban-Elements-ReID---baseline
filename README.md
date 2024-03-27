@@ -12,19 +12,20 @@ Download the UrbanElementsReID dataset from the section [Data](https://www.kaggl
 ### 2) Add the necessary files
 Add to the folder `Part-Aware-Transformer-main/data/datasets/` the dataloaders and initialization files `UrbanElementsReID.py`, `UrbanElementsReID_test.py` and `__init__.py`.
 
-Add to `Part-Aware-Transformer-main/utils/` the file `re_rankig.py`.
-
-### 3) Configuration files
 Add to `Part-Aware-Transformer-main/config/` folder and set up the correspondig paths and configuration of `UrbanElementsReID_test.yml` and `UrbanElementsReID_train.yml` files.
 
-### 4) Train the model
+Add to `Part-Aware-Transformer-main/utils/` the file `re_rankig.py`.
+
+Add to `Part-Aware-Transformer-main/` the evaluation file `update.py`
+
+### 3) Train the model
 In order to train the model first make sure that all the condifuration settings and paths are correct. Then run the following line:
 
 ```bash
 python train.py --config_file "config/UrbanElementsReID_train.yml"
 ```
 
-### 5) Evaluation
+### 4) Evaluation
 To evaluate the results of the models use the script update.py to create the track_submission.csv and add the submission to Kaggle in order to obtain the obtained score. 
 
 ```bash
