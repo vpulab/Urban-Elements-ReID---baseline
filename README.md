@@ -18,14 +18,18 @@ Add to `Part-Aware-Transformer-main/utils/` the file `re_rankig.py`.
 
 Add to `Part-Aware-Transformer-main/` the evaluation file `update.py`
 
-### 3) Train the model
+### 3) Set up configuration files
+
+Modify the configuration files to set up the path to the data directory.
+
+### 4) Train the model
 In order to train the model first make sure that all the condifuration settings and paths are correct. Then run the following line:
 
 ```bash
 python train.py --config_file "config/UrbanElementsReID_train.yml"
 ```
 
-### 4) Evaluation
+### 5) Evaluation
 To evaluate the results of the models use the script update.py to create the track_submission.csv and add the submission to Kaggle in order to obtain the obtained score. 
 
 ```bash
