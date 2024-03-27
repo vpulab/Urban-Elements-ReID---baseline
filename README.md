@@ -12,7 +12,7 @@ Download the UrbanElementsReID dataset from the section [Data](https://www.kaggl
 ### 2) Add the necessary files
 Add to the folder `Part-Aware-Transformer-main/data/datasets/` the dataloaders and initialization files `UrbanElementsReID.py`, `UrbanElementsReID_test.py` and `__init__.py`.
 
-Add to `Part-Aware-Transformer-main/utils/` the file 're_rankig.py'.
+Add to `Part-Aware-Transformer-main/utils/` the file `re_rankig.py`.
 
 ### 3) Configuration files
 Add to `Part-Aware-Transformer-main/config/` folder and set up the correspondig paths and configuration of `UrbanElementsReID_test.yml` and `UrbanElementsReID_train.yml` files.
