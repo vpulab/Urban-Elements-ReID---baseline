@@ -116,5 +116,5 @@ if __name__ == "__main__":
         csv_writter = csv.writer(archivo_csv)
         csv_writter.writerow(['imageName', 'Corresponding Indexes'])
         for numero, track in zip(lista_nombres, indices):
-            track_str = ' '.join(map(str, track))
+            track_str = ' '.join(map(str, track + 1))
             csv_writter.writerow([numero, track_str])
