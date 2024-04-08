@@ -2,7 +2,7 @@
 In this repository, you can find instructions on how to download, configure, and run the baseline for the [Urban Elements ReID competition](https://www.kaggle.com/competitions/urbam-reid-challenge/overview)
 
 ## Download code and set up enviroment
-To download the main code and set up the enviroment please follow the instructions in [Part Aware Transformer](https://github.com/liyuke65535/Part-Aware-Transformer).
+To download the main code and set up the environment, please follow (at least) the first 3 steps of [Part Aware Transformer](https://github.com/liyuke65535/Part-Aware-Transformer).
 
 ## Modified codes
 In order to use PAT for the [Urban Elements ReID competition](https://www.kaggle.com/competitions/urbam-reid-challenge/overview) follow the next steps:
