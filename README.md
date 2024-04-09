@@ -10,7 +10,7 @@ In order to use PAT for the [Urban Elements ReID competition](https://www.kaggle
 ### 1) Download the UrbanElementsReID dataset
 Download the UrbanElementsReID dataset from the section [Data](https://www.kaggle.com/competitions/urbam-reid-challenge/data) in the Kaggle competition page and place it in the directory of your choice.
 
-Once the dataset is downloaded run the `setup.sh` script over the dataset directoy in order to place the folders in the correct way.
+Once the dataset is downloaded run the `setup.sh` script over the dataset directoy in order to place the folders in the correct way. You can find this script in `/Codes/setup.sh`
 
 ```bash
 cd "your data directory"
