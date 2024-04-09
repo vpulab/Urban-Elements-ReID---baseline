@@ -50,7 +50,7 @@ python train.py --config_file "config/UrbanElementsReID_train.yml"
 To evaluate the results of the models use the script update.py to create the track_submission.csv and add the submission to Kaggle in order to obtain the obtained score. 
 
 ```bash
-python update.py --config_file "config/UrbanElementsReID_test.yml" --track "path to store the track.txt and track_submission.csv"
+python update.py --config_file "config/UrbanElementsReID_test.yml" --track "path to store the files/track.txt"
 ```
 
 ### Acknowledgment 
