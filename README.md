@@ -55,3 +55,6 @@ python update.py --config_file "config/UrbanElementsReID_test.yml" --track "path
 
 ### Acknowledgment 
 Special thanks to liyuke65535 for the creation and publication of [Part Aware Transformer](https://github.com/liyuke65535/Part-Aware-Transformer) repository and congratulations for the excelent work.
+
+This work has been supported by the Ministerio de Ciencia, Innovación y Universidades of the Spanish Government under project SEGA-CV (TED2021-131643A-I00)
+
