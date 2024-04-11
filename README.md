@@ -1,7 +1,8 @@
 # Urban-Elements-ReID---baseline
 In this repository, you can find instructions on how to download, configure, and run the baseline for the [Urban Elements ReID competition](https://www.kaggle.com/competitions/urban-reid-challenge/overview)
 
-![Texto alternativo](/logov3 (2).png)
+![](Urban-Elements-ReID---baseline
+/logov3 (2).png)
 
 
 ## Download code and set up enviroment
