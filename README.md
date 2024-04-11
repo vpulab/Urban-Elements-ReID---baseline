@@ -1,8 +1,9 @@
 # Urban-Elements-ReID---baseline
 In this repository, you can find instructions on how to download, configure, and run the baseline for the [Urban Elements ReID competition](https://www.kaggle.com/competitions/urban-reid-challenge/overview)
 
-                                                                  ![](UrbanElementsReID.png)
-
+<p align="center">
+  <img src="UrbanElementsReID.png">
+</p>
 
 ## Download code and set up enviroment
 To download the main code and set up the environment, please follow (at least) the first 3 steps of [Part Aware Transformer](https://github.com/liyuke65535/Part-Aware-Transformer).
