@@ -1,14 +1,14 @@
 # Urban-Elements-ReID---baseline
-In this repository, you can find instructions on how to download, configure, and run the baseline for the [Urban Elements ReID competition](https://www.kaggle.com/competitions/urbam-reid-challenge/overview)
+In this repository, you can find instructions on how to download, configure, and run the baseline for the [Urban Elements ReID competition](https://www.kaggle.com/competitions/urban-reid-challenge/overview)
 
 ## Download code and set up enviroment
 To download the main code and set up the environment, please follow (at least) the first 3 steps of [Part Aware Transformer](https://github.com/liyuke65535/Part-Aware-Transformer).
 
 ## Modified codes
-In order to use PAT for the [Urban Elements ReID competition](https://www.kaggle.com/competitions/urbam-reid-challenge/overview) follow the next steps:
+In order to use PAT for the [Urban Elements ReID competition](https://www.kaggle.com/competitions/urban-reid-challenge/overview) follow the next steps:
 
 ### 1) Download the UrbanElementsReID dataset
-Download the UrbanElementsReID dataset from the section [Data](https://www.kaggle.com/competitions/urbam-reid-challenge/data) in the Kaggle competition page and place it in the directory of your choice.
+Download the UrbanElementsReID dataset from the section [Data](https://www.kaggle.com/competitions/urban-reid-challenge/data) in the Kaggle competition page and place it in the directory of your choice.
 
 Once the dataset is downloaded run the `setup.sh` script over the dataset directoy in order to place the folders in the correct way. You can find this script in `/Codes/setup.sh`
 
