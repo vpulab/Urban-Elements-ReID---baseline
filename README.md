@@ -57,6 +57,11 @@ To evaluate the results of the models use the script update.py to create the tra
 python update.py --config_file "config/UrbanElementsReID_test.yml" --track "path to store the files/track.txt"
 ```
 
+### References
+[1]. Paula Moral, Alvaro García-Martín, Jose M. Martínez. (2024). Long-term geo-positioned re-identification dataset of urban elements. IEEE International Conference on Image Processing (ICIP), pp. 124-130, https://10.1109/ICIP51287.2024.10647759.
+
+[2]. Javier Galán, Miguel González, Paula Moral, Álvaro García-Martín, José M. Martínez. (2025). Transforming urban waste collection inventory: AI-Based container classification and Re-Identification. Waste Management, Volume 199, pp. 25-35, https://doi.org/10.1016/j.wasman.2025.02.051.
+
 ### Acknowledgment 
 Special thanks to liyuke65535 for the creation and publication of [Part Aware Transformer](https://github.com/liyuke65535/Part-Aware-Transformer) repository and congratulations for the excelent work.
 
