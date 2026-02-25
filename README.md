@@ -37,7 +37,7 @@ Add to `Part-Aware-Transformer/config/` folder and set up the correspondig paths
 
 Add to `Part-Aware-Transformer/utils/` the file `re_rankig.py`.
 
-Add to `Part-Aware-Transformer/` the evaluation file `update.py`
+Add to `Part-Aware-Transformer/` the evaluation files `update.py` and `evaluate_csv.py`
 
 ### 3) Set up configuration files
 
