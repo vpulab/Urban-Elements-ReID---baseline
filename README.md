@@ -59,7 +59,7 @@ python update.py --config_file "config/UrbanElementsReID_test.yml" --track "path
 ### 6) Local Evaluation (mAP & CMC Metrics)
 If you want to calculate the performance of your model locally (without uploading to Kaggle) in the [UAM dataset external data](http://www-vpu.eps.uam.es/challenges/UrbanReIDChallenge2026//), use the evaluation script. This script compares your generated track_submission.csv against the ground truth (query.csv and test.csv) to calculate Mean Average Precision (mAP) and Cumulative Match Characteristic (CMC) curves.
 ```bash
-python Evaluate_csv.py --path "path/to/dataset/csv_folder/" --track "path/to/track_submission.csv"
+python evaluate_csv.py --path "path/to/dataset/csv_folder/" --track "path/to/track_submission.csv"
 ```
 ### References
 [1]. Paula Moral, Alvaro García-Martín, Jose M. Martínez. (2024). Long-term geo-positioned re-identification dataset of urban elements. IEEE International Conference on Image Processing (ICIP), pp. 124-130, https://10.1109/ICIP51287.2024.10647759.
