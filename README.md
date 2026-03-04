@@ -6,7 +6,7 @@ In this repository, you can find instructions on how to download, configure, and
 </p>
 
 ## Download code and set up enviroment
-To download the main code and set up the environment, please follow (at least) the first 3 steps of [Part Aware Transformer](https://github.com/liyuke65535/Part-Aware-Transformer).
+To download the main code and set up the environment, please follow the instructions only up to downloading the pre-trained model (step 3) of [Part Aware Transformer](https://github.com/liyuke65535/Part-Aware-Transformer).
 
 ## Modified codes
 In order to use PAT for the [Urban Elements ReID competition](https://www.kaggle.com/competitions/urban-elements-re-id-challenge-2026/overview) follow the next steps:
